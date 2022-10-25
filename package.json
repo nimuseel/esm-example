@@ -1,0 +1,26 @@
+{
+  "name": "esm-example",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./foo": {
+      "import": "./foo.js"
+    },
+    "./bar": {
+      "import": "./bar.js"
+    }
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@types/eslint": "^8",
+    "@types/prettier": "^2",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  },
+  "packageManager": "yarn@1.22.19"
+}
